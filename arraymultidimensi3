@@ -1,0 +1,20 @@
+public class MultiDimensi3 {
+
+    public static void main(String[] args) {
+        int[][][] nilai = {
+            {{52, 90}, {61, 60}, {52, 47}},
+            {{40, 58}, {72, 86}, {40, 79}},
+            {{82, 33}, {52, 87}, {60, 32}}
+        };
+        for (int i = 0; i < nilai.length; i++) {
+            for (int j = 0; j < nilai[0].length; j++) {
+                for (int k = 0; k < nilai[0][0].length; k++) {
+                    System.out.print(" nilai [" +i+ "][" +j+ "][" +k+ "]=" + nilai [i][j][k] + "\t" );
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+    }
+
+}
